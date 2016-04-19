@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sleep2" >
+    
+    
+    
+        
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="380.0dip" >
+        
+        
+        <ImageButton 
+            android:id="@+id/btnStartSleepNew"
+	       	android:layout_width="30dip"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/spp1"
+	        android:layout_weight="1"
+	        android:paddingLeft="15.0dip"/>
+        
+        <ImageButton android:id="@+id/btnSleepDataNew"
+	       	android:layout_width="30dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:src="@drawable/spp2" />
+        
+        <!-- 
+	    <Button
+	        android:id="@+id/btnStartSleep"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="开始睡眠记录" 
+	        android:layout_weight="0.8"
+	        android:paddingLeft="15.0dip"
+	        />
+	
+	    <Button
+	        android:id="@+id/btnSleepData"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10.0dip"
+	        android:layout_marginRight="15.0dip"
+	        android:layout_weight="1"
+	        android:text="睡眠质量查看" />
+	         -->
+    </LinearLayout>
+
+
+</LinearLayout>
